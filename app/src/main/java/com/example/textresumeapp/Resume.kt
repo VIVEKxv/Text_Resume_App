@@ -8,7 +8,7 @@ data class Resume(
     val address: String,
     val summary: String,
     val skills: List<String>,
-    val projects: List<Project>  // Updated projects to be a list of Project objects
+    val projects: List<Project>  
 )
 
 data class Project(
