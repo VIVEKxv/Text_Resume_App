@@ -79,7 +79,6 @@ fun ResumeApp() {
     var bgColor by remember { mutableStateOf(Color(0xFFB2FFB2)) }
     var errorMessage by remember { mutableStateOf<String?>(null) }
 
-    // Ensure only one of the pickers is open at a time
     var activePicker by remember { mutableStateOf<String?>(null) }
 
     val scrollState = rememberScrollState()
